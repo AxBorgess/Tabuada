@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(24, 23, 23);
+    
+    text-align: center;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    color: white;
+}
+
+section{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    width: 40%;
+    
+    margin: auto;
+}
