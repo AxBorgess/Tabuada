@@ -9,27 +9,27 @@
 <body>
     <header>
         <img src="calculator.png" width="100px" height="100px">
-        <h1> Tabuada </h1>
+        <h1> Tabuada  </h1>
     </header>
     <section>
         <div>
             <p>
-                Qual tabuada você deseja saber ? <br>
-                <input type="number" class="form">
+              <b> Qual tabuada você deseja saber ? </b>  <br>
+                <input type="number" class="form" id="num">
             </p>
             <p>
-                Até que número você deseja saber? <br>
-                <input type = "number" class="form">
+                <b> Até que número você deseja saber?</b> <br>
+                <input type = "number" class="form" id="end">
             </p>
             <p>
-                <input type="button" value="Calcular" id="botao">
+                <input type="button" value="Calcular" id="botao" onclick="Tabuada()">
             </p>
         </div>
         <div id = "resposta">
-            Preencha todos os valores acima!
+            <b> Preencha todos os valores acima! </b>
         </div>
-        
     </section>
+    <script src="tabuada_script.js" ></script>
     
     
 </body>
